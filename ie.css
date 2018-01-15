@@ -1,0 +1,80 @@
+  .slick-next:before {
+	font-family: 'slick';
+	font-size: 20px;
+	line-height: 1;
+	opacity: .75;
+	color: none !important;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	content: none !important;
+}
+.slick-prev:before  {
+	font-family: 'slick';
+	font-size: 20px;
+	line-height: 1;
+	opacity: .75;
+	color: none !important;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	content: none !important;
+}
+
+
+button.slick-prev {
+	left:-6vw;
+	top: 50%;
+	height: 6vw !important;
+	width: 6vw;
+	background-image: url(images/left_arrow.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+  background-color: transparent !important;
+}
+
+button.slick-prev:hover {
+	left:-6vw;
+	top: 50%;
+	height: 6vw !important;
+	width: 6vw;
+	background-image: url(images/left_arrow.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+button.slick-prev:focus {
+	left:-6vw;
+	top: 50%;
+	height: 6vw !important;
+	width: 6vw;
+	background-image: url(images/left_arrow.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+button.slick-next {
+	right: -6vw;
+	height: 6vw !important;
+	width: 6vw;
+	top: 50%;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-image: url(images/right_arrow.png);
+   background-color: transparent !important;
+}
+button.slick-next:hover {
+	right: -6vw;
+	height: 6vw !important;
+	width: 6vw;
+	top: 50%;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-image: url(images/right_arrow.png);
+}
+button.slick-next:focus {
+	right: -6vw;
+	height: 6vw !important;
+	width: 6vw;
+	top: 50%;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-image: url(images/right_arrow.png);
+}
